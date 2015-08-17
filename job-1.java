@@ -17,7 +17,12 @@ void draw() {
   //// Scene:  sky, sun, grass.
   background( 100,150,200 );
   //++++  sun is yellow circle
-  //++++  grass is gree rectangle 
+  fill(255,255,0);
+  ellipse( width*3/4, height/8 );
+  //++++  grass is gree rectangle
+  fill( 150,250,150 );
+  rect( 0,height/4, width, height*3/4 );
+
   //// Move zoog.
   x=  x + 3;
   y=  y + 2;
